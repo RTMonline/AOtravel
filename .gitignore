@@ -1,0 +1,5 @@
+/target
+plugin/TravelPlugin/bin/
+plugin/TravelPlugin/obj/
+plugin/ConfigTest/bin/
+plugin/ConfigTest/obj/

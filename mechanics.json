@@ -1,0 +1,216 @@
+{
+ "version": 1,
+ "values": [
+  {
+   "name": "hotkey rows",
+   "group": "controls",
+   "value": 5,
+   "source": "plugin/TravelPlugin/Travel.cs Rows"
+  },
+  {
+   "name": "hotkey 1",
+   "group": "controls",
+   "value": "Ctrl+I",
+   "source": "plugin/TravelPlugin/Travel.cs KeyNames"
+  },
+  {
+   "name": "hotkey 2",
+   "group": "controls",
+   "value": "Ctrl+O",
+   "source": "plugin/TravelPlugin/Travel.cs KeyNames"
+  },
+  {
+   "name": "hotkey 3",
+   "group": "controls",
+   "value": "Ctrl+P",
+   "source": "plugin/TravelPlugin/Travel.cs KeyNames"
+  },
+  {
+   "name": "hotkey 4",
+   "group": "controls",
+   "value": "Ctrl+L",
+   "source": "plugin/TravelPlugin/Travel.cs KeyNames"
+  },
+  {
+   "name": "hotkey 5",
+   "group": "controls",
+   "value": "Ctrl+G",
+   "source": "plugin/TravelPlugin/Travel.cs KeyNames"
+  },
+  {
+   "name": "press repeat guard",
+   "group": "controls",
+   "value": 0.35,
+   "unit": "s",
+   "estimated": true
+  },
+  {
+   "name": "hotkey fires on all characters",
+   "group": "rules",
+   "value": true,
+   "source": "person's request; Travel.cs PressRow"
+  },
+  {
+   "name": "team required",
+   "group": "rules",
+   "value": false,
+   "source": "person's request; AO# IPC multicast"
+  },
+  {
+   "name": "IPC channel",
+   "group": "rules",
+   "value": 117,
+   "estimated": true
+  },
+  {
+   "name": "nano source",
+   "group": "rules",
+   "value": "nano list",
+   "source": "person's request; AO# Spell.List"
+  },
+  {
+   "name": "item source bag",
+   "group": "rules",
+   "value": "Travel",
+   "source": "person's request"
+  },
+  {
+   "name": "open command",
+   "group": "interface",
+   "value": "/travel",
+   "source": "person's request"
+  },
+  {
+   "name": "window open on inject",
+   "group": "interface",
+   "value": false,
+   "source": "person's request"
+  },
+  {
+   "name": "join in default",
+   "group": "rules",
+   "value": true,
+   "estimated": true
+  },
+  {
+   "name": "nano list cap",
+   "group": "interface",
+   "value": 150,
+   "estimated": true
+  },
+  {
+   "name": "result lines in window",
+   "group": "interface",
+   "value": 6,
+   "estimated": true
+  },
+  {
+   "name": "settings file",
+   "group": "rules",
+   "value": "%LOCALAPPDATA%/AOSharp/Travel/<character id>/Config.json",
+   "source": "aosp-bots ManagerGMI Config.cs pattern; plugin/TravelPlugin/Config.cs"
+  },
+  {
+   "name": "bag load delay after inject",
+   "group": "rules",
+   "value": 2.0,
+   "unit": "s",
+   "estimated": true
+  },
+  {
+   "name": "bag load wait for key press",
+   "group": "rules",
+   "value": 8.0,
+   "unit": "s",
+   "estimated": true
+  },
+  {
+   "name": "bag open method",
+   "group": "rules",
+   "value": "use the bag item",
+   "source": "aosp-bots Crystal Filled by the Source HandleBags; plugin/TravelPlugin/Travel.cs RequestBagLoad"
+  },
+  {
+   "name": "nano cast method",
+   "group": "rules",
+   "value": "game client cast function on self",
+   "source": "AO# N3EngineClientAnarchy_t.CastNanoSpell; plugin/TravelPlugin/Travel.cs CastOnSelf"
+  },
+  {
+   "name": "wait to stand still before casting",
+   "group": "rules",
+   "value": 3.0,
+   "unit": "s",
+   "estimated": true
+  },
+  {
+   "name": "cancel travel nano",
+   "group": "controls",
+   "value": "same hotkey again",
+   "source": "person's v2 request; plugin/TravelPlugin/Travel.cs PressRow"
+  },
+  {
+   "name": "cancel all command",
+   "group": "controls",
+   "value": "/travel off",
+   "estimated": true
+  },
+  {
+   "name": "buff watch after cast",
+   "group": "rules",
+   "value": 6.0,
+   "unit": "s",
+   "estimated": true
+  },
+  {
+   "name": "plugin version",
+   "group": "rules",
+   "value": "2.4",
+   "source": "plugin/TravelPlugin/Travel.cs Version"
+  },
+  {
+   "name": "plugin window width",
+   "group": "interface",
+   "value": 600,
+   "unit": "px",
+   "source": "plugin/TravelPlugin/Travel.cs DefaultWindowWidth"
+  },
+  {
+   "name": "plugin window height",
+   "group": "interface",
+   "value": 700,
+   "unit": "px",
+   "source": "plugin/TravelPlugin/Travel.cs DefaultWindowHeight"
+  },
+  {
+   "name": "plugin window minimum",
+   "group": "interface",
+   "value": "460 x 560",
+   "estimated": true
+  },
+  {
+   "name": "window title",
+   "group": "interface",
+   "value": "Travel 2.4",
+   "source": "person's request; plugin/TravelPlugin/Travel.cs WindowTitle"
+  },
+  {
+   "name": "hotkey 6",
+   "group": "controls",
+   "value": "Ctrl+End = /quit on all characters",
+   "source": "person's 2.4 request; plugin/TravelPlugin/Travel.cs QuitKeyName"
+  },
+  {
+   "name": "key options",
+   "group": "controls",
+   "value": "Nano, Item, Camp",
+   "source": "person's 2.4 request; plugin/TravelPlugin/Travel.cs SlotKind"
+  },
+  {
+   "name": "mockup sample characters",
+   "group": "mockup",
+   "value": 4,
+   "estimated": true
+  }
+ ]
+}

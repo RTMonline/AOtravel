@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<View view_layout="vertical" h_alignment="LEFT" v_alignment="TOP" layout_borders="Rect(6,6,6,6)">
+		<TextView name="CharLine" value="Character:" min_size="Point(380,14)" max_size="Point(380,14)" layout_borders="Rect(4,2,4,2)"/>
+		<CheckBox name="JoinIn" label="Join in when a travel key is pressed on any of my characters" layout_borders="Rect(4,4,4,4)"/>
+		<View view_layout="horizontal" h_alignment="LEFT" v_alignment="CENTER" layout_borders="Rect(4,2,4,4)">
+			<TextView value="Nano filter:" min_size="Point(70,14)" max_size="Point(70,14)" layout_borders="Rect(0,0,4,0)"/>
+			<TextInputView name="Filter" min_size="Point(150,15)" max_size="Point(150,15)" layout_borders="Rect(0,0,6,0)"/>
+			<Button name="Refresh" label="Refresh lists" layout_borders="Rect(0,0,0,0)"/>
+		</View>
+		<View view_layout="horizontal" h_alignment="LEFT" v_alignment="CENTER" layout_borders="Rect(4,2,4,4)">
+			<Button name="CancelAll" label="Cancel travel nanos (all characters)" layout_borders="Rect(0,0,6,0)"/>
+			<TextView value="or type /travel off" layout_borders="Rect(0,0,0,0)"/>
+		</View>
+		<TextView value="Hotkey   Source   Travel option on this character" layout_borders="Rect(4,6,4,0)"/>
+		<View view_layout="horizontal" h_alignment="LEFT" v_alignment="CENTER" layout_borders="Rect(4,6,4,0)">
+			<TextView value="Ctrl+I" min_size="Point(52,14)" max_size="Point(52,14)" layout_borders="Rect(2,0,6,0)"/>
+			<Button name="Kind0" label="Nano" min_size="Point(46,18)" max_size="Point(46,18)" layout_borders="Rect(0,0,6,0)"/>
+			<DropdownMenu name="Pick0" min_size="Point(210,18)" max_size="Point(210,18)" layout_borders="Rect(0,0,6,0)"/>
+			<Button name="Test0" label="Test" min_size="Point(44,18)" max_size="Point(44,18)"/>
+		</View>
+		<TextView name="Set0" value="" min_size="Point(360,14)" max_size="Point(360,14)" layout_borders="Rect(62,1,4,0)"/>
+		<View view_layout="horizontal" h_alignment="LEFT" v_alignment="CENTER" layout_borders="Rect(4,6,4,0)">
+			<TextView value="Ctrl+O" min_size="Point(52,14)" max_size="Point(52,14)" layout_borders="Rect(2,0,6,0)"/>
+			<Button name="Kind1" label="Nano" min_size="Point(46,18)" max_size="Point(46,18)" layout_borders="Rect(0,0,6,0)"/>
+			<DropdownMenu name="Pick1" min_size="Point(210,18)" max_size="Point(210,18)" layout_borders="Rect(0,0,6,0)"/>
+			<Button name="Test1" label="Test" min_size="Point(44,18)" max_size="Point(44,18)"/>
+		</View>
+		<TextView name="Set1" value="" min_size="Point(360,14)" max_size="Point(360,14)" layout_borders="Rect(62,1,4,0)"/>
+		<View view_layout="horizontal" h_alignment="LEFT" v_alignment="CENTER" layout_borders="Rect(4,6,4,0)">
+			<TextView value="Ctrl+P" min_size="Point(52,14)" max_size="Point(52,14)" layout_borders="Rect(2,0,6,0)"/>
+			<Button name="Kind2" label="Nano" min_size="Point(46,18)" max_size="Point(46,18)" layout_borders="Rect(0,0,6,0)"/>
+			<DropdownMenu name="Pick2" min_size="Point(210,18)" max_size="Point(210,18)" layout_borders="Rect(0,0,6,0)"/>
+			<Button name="Test2" label="Test" min_size="Point(44,18)" max_size="Point(44,18)"/>
+		</View>
+		<TextView name="Set2" value="" min_size="Point(360,14)" max_size="Point(360,14)" layout_borders="Rect(62,1,4,0)"/>
+		<View view_layout="horizontal" h_alignment="LEFT" v_alignment="CENTER" layout_borders="Rect(4,6,4,0)">
+			<TextView value="Ctrl+L" min_size="Point(52,14)" max_size="Point(52,14)" layout_borders="Rect(2,0,6,0)"/>
+			<Button name="Kind3" label="Nano" min_size="Point(46,18)" max_size="Point(46,18)" layout_borders="Rect(0,0,6,0)"/>
+			<DropdownMenu name="Pick3" min_size="Point(210,18)" max_size="Point(210,18)" layout_borders="Rect(0,0,6,0)"/>
+			<Button name="Test3" label="Test" min_size="Point(44,18)" max_size="Point(44,18)"/>
+		</View>
+		<TextView name="Set3" value="" min_size="Point(360,14)" max_size="Point(360,14)" layout_borders="Rect(62,1,4,0)"/>
+		<View view_layout="horizontal" h_alignment="LEFT" v_alignment="CENTER" layout_borders="Rect(4,6,4,0)">
+			<TextView value="Ctrl+G" min_size="Point(52,14)" max_size="Point(52,14)" layout_borders="Rect(2,0,6,0)"/>
+			<Button name="Kind4" label="Nano" min_size="Point(46,18)" max_size="Point(46,18)" layout_borders="Rect(0,0,6,0)"/>
+			<DropdownMenu name="Pick4" min_size="Point(210,18)" max_size="Point(210,18)" layout_borders="Rect(0,0,6,0)"/>
+			<Button name="Test4" label="Test" min_size="Point(44,18)" max_size="Point(44,18)"/>
+		</View>
+		<TextView name="Set4" value="" min_size="Point(360,14)" max_size="Point(360,14)" layout_borders="Rect(62,1,4,0)"/>
+		<TextView name="LastTitle" value="Last key press: none yet" min_size="Point(380,14)" max_size="Point(380,14)" layout_borders="Rect(4,10,4,2)"/>
+		<TextView name="Last0" value="" min_size="Point(380,14)" max_size="Point(380,14)" layout_borders="Rect(10,1,4,0)"/>
+		<TextView name="Last1" value="" min_size="Point(380,14)" max_size="Point(380,14)" layout_borders="Rect(10,1,4,0)"/>
+		<TextView name="Last2" value="" min_size="Point(380,14)" max_size="Point(380,14)" layout_borders="Rect(10,1,4,0)"/>
+		<TextView name="Last3" value="" min_size="Point(380,14)" max_size="Point(380,14)" layout_borders="Rect(10,1,4,0)"/>
+		<TextView name="Last4" value="" min_size="Point(380,14)" max_size="Point(380,14)" layout_borders="Rect(10,1,4,0)"/>
+		<TextView name="Last5" value="" min_size="Point(380,14)" max_size="Point(380,14)" layout_borders="Rect(10,1,4,0)"/>
+		<TextView value="A hotkey pressed on any character fires on all of them; each uses its own pick." layout_borders="Rect(4,10,4,0)"/>
+		<TextView value="Press the key again while its travel nano is running to cancel it on all characters." layout_borders="Rect(4,2,4,0)"/>
+		<TextView value="Nanos come from the nano list, items from the bag named Travel. Saved per character." layout_borders="Rect(4,2,4,2)"/>
+	</View>
+</root>
