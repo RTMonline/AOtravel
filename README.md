@@ -13,6 +13,10 @@ There are 5 optional hotkeys, click the type to toggle between item, nano and ca
 'Nano' can select a yalm nano. (It can select any nano, but you get it). 
 'Camp' will post /camp to all injected characters.
 
+Setting a hotkey to an item (can / beacon) is a 'use-function'. Use it and wait for cooldown to use it again. 
+Setting a hotkey to a nano (cast yalm) is a toggle. Use it once to cast the nano, use it again to cancel the nano. 
+The toggle works with any nano though so out-of-box thinking is encouraged. 
+
 Ctrl+end is fixed to quit all characters. (same as alt+F4 alt+F4)
 
 For some reason, the old-school yalm is not usable from a bag, so not an option atm.
