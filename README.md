@@ -1,6 +1,8 @@
-AO# plugin for automating travel options in Anarchy Online Copy the contents to a new folder (for instance: travel) in your local AO# repo Add the plugin like any other AO# plugin and inject 'Travel' on each character.
+AO# plugin for automating travel options in Anarchy Online. Copy the contents to a new folder (for instance: travel) in your local AO# repo, then add the plugin like any other AO# plugin and inject 'Travel' on each character.
 
 Inject like any other AO# plugin: \plugin\release\Travel\TravelPlugin.dll
+Injecting the plugin will open and close a bag called 'Travel' in inventory. 
+This is to index the contents. I haven't figured out how to verify contents without opening it. 
 
 The plugin is active on inject and saves settings in: %USERNAME%\APPDATA\Local\AOSharp\Travel
 
